@@ -11,23 +11,21 @@ body {
 }
 //Row #1 CSS
 .containerMargin {
-    margin: 30px 0px 100px 0px;
+    margin: 30px 0px 140px 0px;
 }
 .txtMain {
     color: #2287A3;
 }
-
-
-.txtWeather {
-    color: #BAFAFF;
-}
-
+//Row #2 CSS
 .row2Margin {
     margin-top: 20px;
 }
 .degreesSize {
     font-size: 95px;
     margin-left: 30px;
+}
+.txtWeather {
+    color: #BAFAFF;
 }
 .cloudySize {
     font-size: 25px;

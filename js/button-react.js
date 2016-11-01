@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+
 class Button extends React.Component {
     constructor(props) {
         super(props)
         this.addCounter = this.addCounter.bind(this)
         this.state = {
+            //city: 'Indianapolis'
             counter: 0,
             shouldAdd: 0
         }

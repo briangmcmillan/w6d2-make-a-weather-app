@@ -9,15 +9,19 @@ body {
     background-image: linear-gradient(#BCF9FE, #0096BB);
     background-repeat: no-repeat;
 }
-.txtMain {
-    color: #2287A3;
-}
-.txtWeather {
-    color: #BAFAFF;
-}
+//Row #1 CSS
 .containerMargin {
     margin: 30px 0px 100px 0px;
 }
+.txtMain {
+    color: #2287A3;
+}
+
+
+.txtWeather {
+    color: #BAFAFF;
+}
+
 .row2Margin {
     margin-top: 20px;
 }

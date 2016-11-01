@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom'
 import {Router, Route, Link, browserHistory} from 'react-router'
 
 import CMS from '../components/CMS'
-import Page from '../components/Page'
-import Editor from '../components/Editor'
 
 ReactDOM.render(
 

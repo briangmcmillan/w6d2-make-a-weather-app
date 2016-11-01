@@ -7,23 +7,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Stylesheets go here. -->
   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js"</link>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/global.css" />
 </head>
 <body>
-
-  <div class="container" id="cms">
-
+  <div class="container containerMargin">
+    <div class="row">
+      <div class="col-sm-12 text-center txtMain">
+        <h1>Indianapolis</h1>
+        <h4 id="date"></h4>
+      </div>
+    </div>
+    <br/>
+    <div class="row row2Margin">
+      <div class="col-sm-12 text-center">
+        <h1 class="txtMain degreesSize">82&deg;</h1>
+        <h4 class="txtWeather cloudySize">Mostly Cloudy</h4>
+      </div>
+    </div>
   </div>
 
-  <!-- <div class="container">
-    <div id="react"></div>
-    <div id="dom"></div>
-  </div> -->
 
   <!-- Scripts go here. -->
-  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
-  <script type="text/javascript" src="js/global.bundle.js"></script>
-  <!-- <script type="text/javascript" src="js/button.js"></script> -->
+  <!-- <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script> -->
+  <script type="text/javascript" src="js/moment.js"></script>
+  <script type="text/javascript" src="js/global.js"></script>
 </body>
 </html>
